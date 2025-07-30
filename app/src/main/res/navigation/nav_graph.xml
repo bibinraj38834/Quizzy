@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.project.quizzy.ui.splash.SplashFragment"
+        android:label="Splash" >
+        <action
+            android:id="@+id/action_splash_to_quiz"
+            app:destination="@id/quizFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.project.quizzy.ui.quiz.QuizFragment"
+        android:label="Quiz" >
+        <action
+            android:id="@+id/action_quiz_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.project.quizzy.ui.result.ResultFragment"
+        android:label="Result" />
+</navigation>
