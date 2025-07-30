@@ -51,49 +51,6 @@ app/src/main/java/com/project/quizzy/
     └── QuizViewModel.kt         # Quiz business logic
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Android Studio Arctic Fox or later
-- Android SDK 24 (API level 24) or higher
-- Kotlin 1.8+
-- Gradle 8.0+
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/quizzy.git
-   cd quizzy
-   ```
-
-2. **Open in Android Studio**
-   - Open Android Studio
-   - Select "Open an existing Android Studio project"
-   - Navigate to the cloned directory and select it
-
-3. **Sync and Build**
-   - Wait for Gradle sync to complete
-   - Build the project (Build → Make Project)
-
-4. **Run the App**
-   - Connect an Android device or start an emulator
-   - Click the "Run" button (green play icon) or press Shift+F10
-
-### Configuration
-
-The app is configured to work with a quiz API. You may need to update the API endpoint in `RetroFitInstance.kt` to point to your quiz data source.
-
-## 🎮 How to Play
-
-1. **Start the Quiz**: Launch the app and wait for the splash screen
-2. **Answer Questions**: Tap on one of the four answer options
-3. **Get Feedback**: See immediate visual feedback for your answer
-4. **Track Progress**: Monitor your progress through the progress bar
-5. **Build Streaks**: Get consecutive correct answers to see the fire animation
-6. **View Results**: See your final score and performance at the end
-
 ## 🛠️ Technologies Used
 
 - **Kotlin**: Primary programming language
@@ -110,35 +67,11 @@ The app is configured to work with a quiz API. You may need to update the API en
 
 ## 📱 Screenshots
 
-*[Screenshots would be added here]*
+![img_5.png](img_5.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img.png](img.png)
+![img_1.png](img_1.png)
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Material Design 3 for the beautiful UI components
-- Lottie for the smooth animations
-- Retrofit for seamless network communication
-- Hilt for dependency injection
-
-## 📞 Support
-
-If you encounter any issues or have questions, please:
-
-1. Check the existing issues in the GitHub repository
-2. Create a new issue with detailed information about your problem
-3. Include device information, Android version, and steps to reproduce
-
----
-
-**Made with ❤️ for the Android community** 
